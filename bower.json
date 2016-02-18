@@ -1,0 +1,29 @@
+{
+  "name": "polymer",
+  "homepage": "https://github.com/Yosef-Ali/polymer-getting-started-code",
+  "authors": [
+    "Yosef <yosethio@yahoo.com>"
+  ],
+  "description": "polymer getting stated code",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.4",
+    "core-elements": "Polymer/core-elements#^0.5.6",
+    "paper-elements": "Polymer/paper-elements#^0.5.6"
+  }
+}
